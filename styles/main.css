@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin: auto;
+  display: inline-block;
+}
+nav{
+  width: 100%;
+  background-color: #40E0D0;
+  text-align: center;
+}
+a{
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration:none;
+  color: white;
+}
+.liz:hover{
+  border-bottom: solid white 2px;
+  background-color:#20B2AA;
+
+}
+nav>ul>li:hover{
+  box-sizing: border-box;
+  border-bottom:solid 3px white;
+  background-color:	#20B2AA;
+}
+.ta{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  transition-duration: 1s;
+  transition-property: width,height,background-color;
+}
+.ta:hover{
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+}
+.tu{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  margin: auto;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+  transition-property: width, height,background-color,border;
+  transition-delay: 1s, 2s, 2s,3s;
+}
+.tu:hover{
+  width: 150px;
+  height: 200px;
+  background-color: green;
+  border:solid 5px 	#FFD700;
+}
+.ma{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  margin: auto;
+  background-color:green;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+  transition-property: width,height,background-color;
+  transition-delay: 0s, 0s,1s;
+}
+.ma:hover{
+  width: 200px;
+  height: 200px;
+  background-color:	#FA8072;
+}
+.ma>article{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  margin: auto;
+  background-color:blue;
+  width: 70px;
+  height: 70px;
+  transition-property: width,height, background-color, border-radius;
+  transition-duration: 1s;
+  transition-delay:1s,1s, 2s,3s;
+
+}
+.ma:hover article{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+.la{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom:0px;
+  right: 0px;
+  margin: auto;
+  background-color: #3CB371;
+  width: 150px;
+  height: 150px;
+  transition-duration: 1s;
+  transition-property: width,height,background-color;
+  transition-delay: 0s, 1s,2s;
+}
+.la:hover{
+  width:200px;
+  height: 200px;
+  background-color: 	#7FFFD4;
+}
+.la>article{
+  position:absolute;
+  top:0px;
+  left: 0px;
+  margin: auto;
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+}
