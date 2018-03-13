@@ -342,3 +342,316 @@ background-color:blue ;
   border-radius: 50%;
   background-color: blue;
 }
+.septimo{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  margin: auto;
+  background-color:#DC143C;
+  width: 200px;
+  height: 200px;
+  transition-duration: 1s;
+  transition-property: width,height,background-color,border-top,border-bottom,border-left,border-right;
+  transition-delay: 0s,0s,1s,7s,8s,9s,10s;
+
+}
+.septimo:hover{
+  width: 240px;
+  height: 240px;
+  background-color: yellow;
+  border-top:solid black 5px;
+  border-bottom:solid black 5px;
+  border-left:solid orange 5px;
+  border-right:solid orange 5px;
+}
+.septimo>article:nth-child(1){
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  margin: 0px auto;
+  background-color: #008B8B;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+  transition-property: border-radius,background-color,left;
+  transition-delay: 2s,3s,4s;
+}
+.septimo:hover>article:nth-child(1){
+  border-radius: 50%;
+  top: 0px;
+  left: 150px;
+  right: 0px;
+  margin: 0px auto;
+  background-color: purple;
+}
+.septimo>article:nth-child(2){
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin: 0px auto;
+  background-color:#008B8B;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+  transition-property: border-radius,background-color,right;
+  transition-delay: 4s,5s,6s;
+}
+.septimo:hover>article:nth-child(2){
+  border-radius: 50%;
+  bottom: 0px;
+  left: 0px;
+  right: 150px;
+  margin: 0px auto;
+  background-color: green;
+}
+.octavo{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  transition-duration: 1s;
+  transition-property: width,height,background-color,border-top,border-bottom,border-left,border-right;
+  transition-delay: 0s,0s,2s,3s,4s,5s,6s;
+}
+.octavo:hover{
+  width: 250px;
+  height: 200px;
+  background-color:	#8B008B;
+  border-top:solid 	#FF7F50 15px;
+  border-bottom:solid red 15px;
+  border-left:solid 	blue 15px;
+  border-right:solid 	green 15px;
+
+}
+.octavo>article:nth-child(1){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+  transition-duration:top,left,bottom,background-color;
+  transition-delay: 0s,0s,0s,3s;
+}
+.octavo:hover>article:nth-child(1){
+  border:solid #778899 3px;
+  border-radius: 50px;
+  top: 150px;
+  left: 5px;
+  bottom: 0px;
+  background-color:black;
+}
+.octavo>article:nth-child(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  margin: auto;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+  transition-duration: top,bottom,right,left,background-color;
+  transition-delay: 5s,5s,5s,5s,6s;
+}
+.octavo:hover>article:nth-child(2){
+  border:solid #778899 3px;
+  border-radius: 50px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 150px;
+  background-color:black;
+}
+.octavo>article:nth-child(3){
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+  transition-duration,right,bottom,top,background-color;
+  transition-delay: 7s,7s,7s,8s;
+}
+.octavo:hover>article:nth-child(3){
+  border:solid #778899 3px;
+  border-radius: 50px;
+  top: 150px;
+  right: 5px;
+  bottom: 0px;
+  background-color:black;
+}
+.noveno{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left:  0px;
+  bottom: 0px;
+  margin: auto;
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+  transition-duration: 1s;
+  transition-duration: width,height;
+  transition-delay: 0s,0s;
+}
+.noveno:hover{
+  width: 250px;
+  height: 250px;
+}
+.noveno>article:nth-child(1){
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  margin: auto;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+  transition-property:border-radius,background-color,left;
+  transition-delay: 0s,1s,2s;
+}
+.noveno:hover>article:nth-child(1){
+ border-radius:  60%;
+ background-color: yellow;
+ left: 60px;
+  }
+.noveno>article:nth-child(2){
+  position:absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+  transition-property:border-radius,background-color,bottom;
+  transition-delay: 0s,3s,4s;
+}
+.noveno:hover>article:nth-child(2){
+ border-radius: 60%;
+ background-color: blue;
+ bottom: 60px;
+  }
+.noveno>article:nth-child(3){
+  position:absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: auto;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+  transition-property:border-radius,background-color,right;
+  transition-delay: 0s,5s,6s;
+}
+.noveno:hover>article:nth-child(3){
+ border-radius: 60%;
+ background-color: green;
+ right: 60px;
+  }
+.noveno>article:nth-child(4){
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  margin: auto;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+  transition-property:border-radius,background-color,top;
+  transition-delay: 0s,7s,8s;
+}
+.noveno:hover>article:nth-child(4){
+ border-radius: 60%;
+ background-color:#FF1493;
+ top: 60px;
+  }
+  .noveno>article:nth-child(1)>section:nth-child(1){
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: auto;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+  }
+  .noveno>article:nth-child(1)>section:nth-child(2){
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    margin: auto;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+  }
+  .noveno>article:nth-child(1)>section:nth-child(3){
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    margin: auto;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+  }
+  .noveno>article:nth-child(1)>section:nth-child(4){
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+    margin: auto;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+  }
+  .noveno>article:nth-child(2)>section:nth-child(1){
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+    margin: auto;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+  }
+  .noveno>article:nth-child(2)>section:nth-child(2){
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    margin: auto;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+  }
+  .noveno>article:nth-child(2)>section:nth-child(3){
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    margin: auto;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+  }
+  .noveno>article:nth-child(2)>section:nth-child(4){
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    margin: auto;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+  }
